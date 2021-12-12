@@ -106,7 +106,8 @@ $mobile:539px;
 }
 
 #header {
-    width: 65%;
+    width: 100%;
+    height: 100vh;
     background-color: #fff;
     overflow: visible;
     z-index: 99;
@@ -137,7 +138,7 @@ $mobile:539px;
         .menuWeb {
             position: absolute;
             top: 50%;
-            right: 50px;
+            right: 37%;
             transform: translateY(-50%);
 
             #gnb {
@@ -201,6 +202,11 @@ $mobile:539px;
                         padding: 10px;
                         border-top: 2px solid #8f431d;
                         border-bottom: 2px solid #8f431d;
+                        &::after {
+                            content: '';
+                            display: block;
+                            clear: both;
+                        }
 
                         
 
@@ -565,6 +571,11 @@ $mobile:539px;
     z-index: 99;
     top: -100px;
     .inner{
+        &::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
         article{
             float: left;
             &:nth-child(1){
@@ -615,13 +626,21 @@ $mobile:539px;
                     }
                     
                 }
-
-
+                &::after {
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
 
                 .icons{
                     float: left;
                     position: relative;
                     margin-top: 5px;
+                    &::after {
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
                     li{
                         float: left;
                         margin-right: 20px;
@@ -656,6 +675,7 @@ section {
                 font: normal 15px/1 'Inconsolata';
                 position: relative;
                 letter-spacing: 2px;
+                display: inline;
             }
             hr{
                 display: block;
@@ -1061,6 +1081,11 @@ section {
             height: 300px;
             padding: 50px 0;
             position: relative;
+            &::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
 
             .items {
                 width: 25%;
@@ -1123,6 +1148,11 @@ section {
             >ul {
                 position: absolute;
                 right: 0;
+                &::after {
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
 
                 li {
                     float: left;
@@ -1315,6 +1345,11 @@ section {
         &#crew {
             .inner{
                 .wrap{
+                    &::after {
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
                     article{
                         float: none;
                         width: 100%;
