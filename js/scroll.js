@@ -75,24 +75,23 @@ class MyScroll {
             //let activeIndex = $("#navi li a.on").parent().index(); 
             let activeIndex = this.btns.children("a").filter(".on").parent().index();
             this.moveScroll(activeIndex);
-            console.log(this);
         });
 
-        //마우스휠 이벤트 
-        this.boxs.on("mousewheel", e => {
-            e.preventDefault();
+        // //마우스휠 이벤트 
+        // this.boxs.on("mousewheel", e => {
+        //     e.preventDefault();
 
-            if (this.enableEvt) {
-                this.enableEvt = false;
-                let i = $(e.currentTarget).index();
+        //     if (this.enableEvt) {
+        //         this.enableEvt = false;
+        //         let i = $(e.currentTarget).index();
 
-                if (e.originalEvent.deltaY > 0) {
-                    this.moveScroll(i + 1);
-                } else {
-                    this.moveScroll(i - 1);
-                }
-            }
-        });
+        //         if (e.originalEvent.deltaY > 0) {
+        //             this.moveScroll(i + 1);
+        //         } else {
+        //             this.moveScroll(i - 1);
+        //         }
+        //     }
+        // });
 
         //네비 버튼 클릭시 해당 섹션의 세로 위치값으로 이동 
         this.btns.on("click", e => {
@@ -112,6 +111,7 @@ class MyScroll {
         $(window).on("scroll", () => {
             let scroll = $(window).scrollTop();
             this.activation(scroll);
+            console.log(this);
         });
     }
 

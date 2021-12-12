@@ -2030,7 +2030,7 @@ a {
             color: #BE8263; }
       .left-visual .inner article:nth-child(2) {
         height: 40vh;
-        background-image: url(../img/main_visual2.jpg);
+        background-image: url(../img/main_visual.jpg);
         background-position: center;
         background-size: cover; }
 
@@ -2457,14 +2457,15 @@ section {
   position: fixed;
   right: 60px;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  z-index: 99; }
   #navi li {
     margin-bottom: 20px; }
     #navi li a {
       display: block;
       width: 10px;
       height: 10px;
-      background: #fff;
+      background: #efefef;
       transition: 0.5s; }
       #navi li a.on {
         background: #111;
