@@ -1147,8 +1147,29 @@ section {
     }
 }
 
+
 #navi {
-    display: none;
+    position: fixed;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    li {
+        margin-bottom: 20px;
+
+        a {
+            display: block;
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            transition: 0.5s;
+
+            &.on {
+                background: #111;
+                height: 60px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:$tablet) {

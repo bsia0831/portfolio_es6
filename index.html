@@ -16,6 +16,15 @@
     <script defer src="js/popup.js"></script>
     <script defer src="js/scroll.js"></script>
     <script defer src="js/btnCall.js"></script>
+    <script>
+        $(document).ready(function () {
+            new MyScroll({
+                panel: "section",
+                btns: "#navi li",
+                base: -300
+            });
+        })
+    </script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
