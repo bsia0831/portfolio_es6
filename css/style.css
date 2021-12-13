@@ -1151,9 +1151,9 @@ a {
 
 .values {
   width: 100%;
-  background-image: url(../img/member_banner.png);
+  background-image: url(../img/member_banner.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-size: cover; }
   .values .inner {
     width: 1180px;
@@ -1740,7 +1740,8 @@ a {
       position: absolute;
       top: 50%;
       right: 37%;
-      transform: translateY(-50%); }
+      transform: translateY(-50%);
+      z-index: 99; }
       #header .inner .menuWeb #gnb {
         margin-right: 70px; }
         #header .inner .menuWeb #gnb::after {
