@@ -1180,7 +1180,7 @@ section {
 
 #navi {
     position: fixed;
-    right: 60px;
+    right: 30px;
     top: 50%;
     transform: translateY(-50%);
     z-index: 99;
@@ -1192,12 +1192,13 @@ section {
             display: block;
             width: 10px;
             height: 10px;
-            background: #efefef;
+            background: #e2c0b0;
             transition: 0.5s;
+            border-radius: 100%;
 
             &.on {
-                background: #111;
-                height: 60px;
+                background: #b66238;
+                transform: scale(1.2);
             }
         }
     }

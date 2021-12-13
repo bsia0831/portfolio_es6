@@ -2481,7 +2481,7 @@ section {
 
 #navi {
   position: fixed;
-  right: 60px;
+  right: 30px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 99; }
@@ -2491,11 +2491,12 @@ section {
       display: block;
       width: 10px;
       height: 10px;
-      background: #efefef;
-      transition: 0.5s; }
+      background: #e2c0b0;
+      transition: 0.5s;
+      border-radius: 100%; }
       #navi li a.on {
-        background: #111;
-        height: 60px; }
+        background: #b66238;
+        transform: scale(1.2); }
 
 @media screen and (max-width: 1179px) {
   #header .inner {
