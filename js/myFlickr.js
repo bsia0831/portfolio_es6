@@ -253,9 +253,9 @@ frame.addEventListener("click", e => {
 
     let pop = document.createElement("aside");
     let pops = `
-               <img src="${imgSrc}">
-               <span class="close">CLOSE</span>
-   `;
+            <img src="${imgSrc}">
+            <span class="close">CLOSE</span>
+`;
     pop.innerHTML = pops;
     document.querySelector("main").append(pop);
 });
