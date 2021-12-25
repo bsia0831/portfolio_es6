@@ -1732,7 +1732,7 @@ a {
         line-height: 10vh;
         left: 100px;
         font-size: 25px;
-        color: #BE8263; }
+        color: #111; }
     #header .inner .menuWeb {
       position: absolute;
       right: 100px;
@@ -1772,10 +1772,10 @@ a {
               display: block;
               position: absolute;
               margin-top: 2px;
-              border-bottom: 1px solid #BE8263;
+              border-bottom: 1px solid #f1df18;
               transition: all .3s ease; }
             #header .inner .menuWeb #gnb li a:hover {
-              color: #BE8263; }
+              color: #f1df18; }
           #header .inner .menuWeb #gnb li .sub {
             width: 200%;
             height: 30vh;
@@ -1785,8 +1785,8 @@ a {
             background: #fff;
             display: none;
             padding: 10px;
-            border-top: 2px solid #8f431d;
-            border-bottom: 2px solid #8f431d; }
+            border-top: 2px solid #f1df18;
+            border-bottom: 2px solid #f1df18; }
             #header .inner .menuWeb #gnb li .sub::after {
               content: '';
               display: block;
@@ -1797,7 +1797,7 @@ a {
               background: url(../img/sub5.jpg) no-repeat center/cover;
               float: left;
               padding: 7px;
-              color: #fff; }
+              color: #f1df18; }
             #header .inner .menuWeb #gnb li .sub .right {
               width: 50%;
               height: 100%;
@@ -1831,7 +1831,7 @@ a {
           display: block;
           padding: 30px 10px;
           transition: 0.5s;
-          color: #BE8263; }
+          color: #111; }
           #header .inner .menuWeb .icons li a i {
             font-size: 17px; }
         #header .inner .menuWeb .icons li:hover a {

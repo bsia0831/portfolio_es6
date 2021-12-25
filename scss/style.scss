@@ -128,7 +128,7 @@ $mobile:539px;
                 line-height: 10vh;
                 left: 100px;
                 font-size: 25px;
-                color: #BE8263;
+                color: #111;
             }
         }
 
@@ -178,12 +178,12 @@ $mobile:539px;
                             display: block;
                             position: absolute;
                             margin-top: 2px;
-                            border-bottom: 1px solid #BE8263;
+                            border-bottom: 1px solid #f1df18;
                             transition: all .3s ease;
                         }
 
                         &:hover{
-                            color: #BE8263;
+                            color: #f1df18;
                         }
 
 
@@ -198,8 +198,8 @@ $mobile:539px;
                         background:#fff; 
                         display:none;
                         padding: 10px;
-                        border-top: 2px solid #8f431d;
-                        border-bottom: 2px solid #8f431d;
+                        border-top: 2px solid #f1df18;
+                        border-bottom: 2px solid #f1df18;
                         &::after {
                             content: '';
                             display: block;
@@ -213,7 +213,7 @@ $mobile:539px;
                             width:50%; height:100%; 
                             background: url(../img/sub5.jpg) no-repeat center/cover;
                             float:left; 
-                            padding: 7px; color: #fff;
+                            padding: 7px; color: #f1df18;
                         }
                         .right{
                             width:50%; height:100%; 
@@ -281,7 +281,7 @@ $mobile:539px;
                         display: block;
                         padding: 30px 10px;
                         transition: 0.5s;
-                        color: #BE8263;
+                        color: #111;
 
                         i {
                             font-size: 17px;
