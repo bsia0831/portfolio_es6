@@ -15,6 +15,8 @@ $mobile:539px;
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Fraunces:wght@100&family=Inconsolata:wght@200;300;400&family=Nunito:wght@300&display=swap');
 
@@ -82,7 +84,7 @@ $mobile:539px;
 .btn{
     display: block;
     width: 200px; height: 50px;
-    font: 13px/50px 'Inconsolata'; color: #BE8464;
+    font: 13px/50px 'Ubuntu'; color: #BE8464;
     background-color: #eccdbc;
     margin: 40px auto;
     text-align: center;
@@ -99,7 +101,7 @@ $mobile:539px;
     position: relative;
     display: block;
     width: 25%; height: 30px;
-    font: 13px/30px 'Heebo'; color: #111;
+    font: 13px/30px 'Ubuntu'; color: #111;
     letter-spacing: 2px;
     border-bottom: 2px solid #000;
     margin-right: 200px;
@@ -155,7 +157,7 @@ $mobile:539px;
                         display: block;
                         margin: 20px 10px;
                         color: #111;
-                        font: bold 15px/1 'Georama';
+                        font: bold 15px/1 'Ubuntu';
                         transition: 0.5s;
 
                         &::after {
@@ -190,11 +192,11 @@ $mobile:539px;
                     }
 
                     .sub{
-                        width:200%; 
+                        width:276%; 
                         height:30vh; 
                         position:absolute;  
-                        top: 50px; 
-                        right:-10px;   
+                        top: 60px; 
+                        right:-15vh;   
                         background:#fff; 
                         display:none;
                         padding: 10px;
@@ -224,7 +226,7 @@ $mobile:539px;
                                     margin-left: 10px;
                                     float: none;
                                     a{
-                                        font: 20px/2 'Heebo';
+                                        font: 20px/2 'Ubuntu';
                                         
                                         &::after{
                                             display: none;
@@ -501,9 +503,20 @@ $mobile:539px;
     position: relative;
     background-color: #efefef;
     background-image: url(../img/main_visual.jpg);
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    .inner{
+        width: 100%;
+        position: relative;
+        h2{
+            display: block;
+            position: absolute;
+            left: 10%;
+            font: 50px/1 'Ubuntu';
+            margin-top: 10%;
+        }
+    }
 }
 
 section {
@@ -1043,12 +1056,12 @@ section {
             display: block;
             width: 10px;
             height: 10px;
-            background: #e2c0b0;
+            background: #111;
             transition: 0.5s;
             border-radius: 100%;
 
             &.on {
-                background: #b66238;
+                background: #fcf978;
                 transform: scale(1.2);
             }
         }

@@ -4,11 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Fraunces:wght@100&family=Inconsolata:wght@200;300;400&family=Nunito:wght@300&display=swap");
 * {
   margin: 0px;
   padding: 0;
-  font-family: 'Georama';
+  font-family: 'Ubuntu';
   box-sizing: border-box;
   transition: all .5s; }
 
@@ -1691,7 +1692,7 @@ a {
   display: block;
   width: 200px;
   height: 50px;
-  font: 13px/50px 'Inconsolata';
+  font: 13px/50px 'Ubuntu';
   color: #BE8464;
   background-color: #eccdbc;
   margin: 40px auto;
@@ -1707,7 +1708,7 @@ a {
   display: block;
   width: 25%;
   height: 30px;
-  font: 13px/30px 'Heebo';
+  font: 13px/30px 'Ubuntu';
   color: #111;
   letter-spacing: 2px;
   border-bottom: 2px solid #000;
@@ -1752,7 +1753,7 @@ a {
             display: block;
             margin: 20px 10px;
             color: #111;
-            font: bold 15px/1 'Georama';
+            font: bold 15px/1 'Ubuntu';
             transition: 0.5s; }
             #header .inner .menuWeb #gnb li a::after {
               content: '';
@@ -1777,11 +1778,11 @@ a {
             #header .inner .menuWeb #gnb li a:hover {
               color: #f1df18; }
           #header .inner .menuWeb #gnb li .sub {
-            width: 200%;
+            width: 276%;
             height: 30vh;
             position: absolute;
-            top: 50px;
-            right: -10px;
+            top: 60px;
+            right: -15vh;
             background: #fff;
             display: none;
             padding: 10px;
@@ -1807,7 +1808,7 @@ a {
                 margin-left: 10px;
                 float: none; }
                 #header .inner .menuWeb #gnb li .sub .right ul li a {
-                  font: 20px/2 'Heebo'; }
+                  font: 20px/2 'Ubuntu'; }
                   #header .inner .menuWeb #gnb li .sub .right ul li a::after {
                     display: none; }
                   #header .inner .menuWeb #gnb li .sub .right ul li a:hover {
@@ -1990,9 +1991,18 @@ a {
   position: relative;
   background-color: #efefef;
   background-image: url(../img/main_visual.jpg);
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
+  #visual .inner {
+    width: 100%;
+    position: relative; }
+    #visual .inner h2 {
+      display: block;
+      position: absolute;
+      left: 10%;
+      font: 50px/1 'Ubuntu';
+      margin-top: 10%; }
 
 section {
   width: 100%;
@@ -2378,11 +2388,11 @@ section {
       display: block;
       width: 10px;
       height: 10px;
-      background: #e2c0b0;
+      background: #111;
       transition: 0.5s;
       border-radius: 100%; }
       #navi li a.on {
-        background: #b66238;
+        background: #fcf978;
         transform: scale(1.2); }
 
 @media screen and (max-width: 1179px) {
