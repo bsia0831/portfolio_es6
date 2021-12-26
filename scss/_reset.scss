@@ -17,3 +17,9 @@ a{
 .hidden{
     display: none;
 }
+
+.wrap{
+    &::after{
+        content: ''; display: block; clear: both;
+    }
+}
