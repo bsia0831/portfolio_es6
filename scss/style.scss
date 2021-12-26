@@ -507,7 +507,6 @@ $mobile:539px;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
-    overflow: hidden;
 
     .inner{
         width: 100%;
@@ -537,6 +536,7 @@ $mobile:539px;
             position: absolute;
             bottom: 0; right: 0;
             cursor: pointer;
+            
             article{
                 float: left;
                 width: 30%;
