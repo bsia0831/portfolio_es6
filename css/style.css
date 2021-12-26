@@ -2027,15 +2027,53 @@ a {
       background: #fff;
       position: absolute;
       bottom: 0;
-      right: 0; }
+      right: 0;
+      cursor: pointer; }
       #visual .inner .wrap article {
         float: left;
         width: 30%;
         height: 100%;
-        border-right: 1px solid #111; }
+        border-right: 1px solid rgba(192, 192, 192, 0.562); }
+        #visual .inner .wrap article .img-left {
+          width: 80px;
+          height: 80px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          margin-left: 3%; }
+          #visual .inner .wrap article .img-left img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%; }
+        #visual .inner .wrap article .txt-right {
+          width: 90%;
+          height: 100%;
+          text-align: right;
+          font: 15px/15vh 'Ubuntu'; }
+        #visual .inner .wrap article:first-child {
+          border-bottom: 5px solid #f1df18; }
         #visual .inner .wrap article:last-child {
           width: 10%;
           border: none; }
+          #visual .inner .wrap article:last-child::after {
+            content: '';
+            display: block;
+            clear: both; }
+          #visual .inner .wrap article:last-child .arrow {
+            float: left;
+            width: 100%;
+            height: 100%;
+            text-align: center; }
+            #visual .inner .wrap article:last-child .arrow > div {
+              line-height: 15vh;
+              margin-right: 20px; }
+            #visual .inner .wrap article:last-child .arrow .fa-chevron-right {
+              margin-right: 0; }
+        #visual .inner .wrap article:hover {
+          border-bottom: 5px solid #f1df18; }
+          #visual .inner .wrap article:hover:last-child {
+            border-bottom: none; }
 
 section {
   width: 100%;
